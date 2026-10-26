@@ -1,0 +1,20 @@
+# Python 3.10, CUDA 12.x
+torch==2.8.0
+vllm==0.11.0
+transformers==4.57.3
+peft==0.21.1
+accelerate>=1.6.0
+datasets>=3.6.0
+openai>=1.75.0
+scikit-learn
+pandas
+pyarrow
+tqdm
+tensorboard
+wandb
+
+# GRPO: verl is installed from source at a fixed commit (see README)
+# pip install "verl @ git+https://github.com/volcengine/verl.git@2815eea5d6a5153594dcd71637c423984a268791"
+
+# minimal example notebook
+jupyter
